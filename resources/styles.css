@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'DINPro';
+    src: url('./fonts/DINPro.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Azur Bold';
+    src: url('./fonts/Wiescher Design - Azur Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Azur Light';
+    src: url('./fonts/Wiescher Design - Azur Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Azur Medium';
+    src: url('./fonts/Wiescher Design - Azur Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Azur Normal';
+    src: url('./fonts/Wiescher Design - Azur Normal.otf') format('opentype');
+}
+
+/* Update styles to use these fonts */
+body {
+    font-family: 'DINPro', Arial, sans-serif;
+    background-color: #3c3c3c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.subtitle {
+    font-family: 'Azur Light', Arial, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.timer span:first-child {
+    font-family: 'Azur Medium', Arial, sans-serif;
+    font-size: 3rem;
+    display: block;
+}
+
+footer {
+    font-family: 'Azur Normal', Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #ccc;
+}
